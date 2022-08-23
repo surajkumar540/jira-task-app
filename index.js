@@ -89,9 +89,6 @@ textArea.addEventListener("keydown", function (e) {
   let key = e.key;
   if (key == "Enter") {
     taskAndColor.style.display = "none";
-    if(textArea.value == ""){
-      return;
-    }
     createTicket(ticketNavColor, textArea.value);
     textArea.value = "";
     toggle = !toggle;
