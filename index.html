@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jira App</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="nav_container">
+        <div class="nav_div1">
+            <div class="coloring redcolor">Urgent</div>
+            <div class="coloring bluecolor">Current</div>
+            <div class="coloring yellowcolor">Hold</div>
+            <div class="coloring greencolor">Done</div>
+        </div>
+    </div>
+
+    <!-- add and delete -->
+        <div class="nav_div2">
+            <div class="add">
+                <i class="fa fa-plus"></i>
+            </div>
+            <div class="delete">
+                <i class="fa fa-trash"></i>
+            </div>
+        </div>
+
+    <div class="task_and_color">
+        <div class="task_area">
+            <textarea class="inputbar" placeholder="Enter your Task"></textarea>
+        </div>
+
+        <div class="color">
+            <div class="redcolor priority-color default"></div>
+            <div class="bluecolor priority-color"></div>
+            <div class="yellowcolor priority-color"></div>
+            <div class="greencolor priority-color"></div>
+        </div>
+    </div>
+
+    <div class="ticket_container">
+        <!--
+        <div class = "ticket">
+            <div class="ticketColor"></div>
+            <div class="uniqueId">#536fsa</div>
+            <div class="content">Revision Javascript</div>
+            <div class="lock-unlock">
+            <i class="fa fa-lock"></i>
+            </div>;
+        </div>
+        -->
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+<script src="./index.js"></script>
+</html>
+
